@@ -5,7 +5,6 @@
 - [Voichita Maria Truscai](https://github.com/sabovoichita)
 - [Denisa Puie](https://github.com/dpuie)
 
-## Structure
+## live link:[word search](https://sabovoichita.github.io/sunday-school-word-search-game/)
 
-- wordsearch
-- cross out
+## Structure
