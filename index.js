@@ -59,7 +59,7 @@ if (typeof Object.merge != "function") {
       directions: ["W", "N", "WN", "EN"],
       gridSize: 10,
       // words: window.location.search.split("=")[1].split(","),
-      words: ["ana", "are", "mere", "foarte", "bune", "daca", "vrei"],
+      words: ["Jesus", "Joseph", "Mary", "Temple", "Jerusalem", "Simeon"],
       wordsList: [],
       debug: false,
     };
