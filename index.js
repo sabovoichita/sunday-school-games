@@ -58,8 +58,8 @@ if (typeof Object.merge != "function") {
     var default_settings = {
       directions: ["W", "N", "WN", "EN"],
       gridSize: 10,
-      // words: window.location.search.split("=")[1].split(","),
-      words: ["ana", "are", "mere", "foarte", "bune", "daca", "vrei"],
+      words: window.location.search.split("=")[1].split(","),
+      // words: ["ana", "are", "mere", "foarte", "bune", "daca", "vrei"],
       wordsList: [],
       debug: false,
     };
@@ -442,10 +442,14 @@ if (typeof Object.merge != "function") {
       "<div class='ws-game-over' id='ws-game-over'>" +
       "<h2>Congratulations!</h2>" +
       "<p>You've found all of the words!</p>" +
-      "</div>" +
-      "</div>";
+      "<button class='reset'>" +
+      "Reset" +
+      "</button>";
+    "</div>" + "</div>";
   };
-
+  WordSearch.prototype.reset = function () {
+    var reset = document.getElementsByClassName("reset");
+  };
   /**
    * MouseÂ event - Mouse down
    * @param {Object} item
