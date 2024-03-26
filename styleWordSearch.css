@@ -1,7 +1,9 @@
-body,
 h1 {
   margin: 0;
   padding: 0;
+  text-align: center;
+  color: blueviolet;
+  background-color: palevioletred;
 }
 
 h1 {
@@ -9,7 +11,9 @@ h1 {
 }
 
 body {
-  color: #333;
+  color: blueviolet;
+  font-style: bold;
+  font-size: larger;
 }
 
 /* Common */
@@ -60,7 +64,7 @@ body {
 /* Wordsearch */
 
 .ws-area {
-  background: #d9f9ea;
+  background: palevioletred;
   display: inline-block;
   padding: 20px;
   border-radius: 10px;
@@ -79,15 +83,15 @@ body {
 }
 
 .ws-col.ws-selected {
-  background: #eee;
+  background: blueviolet;
 }
 
 .ws-found {
-  background: yellow;
+  background: pink;
 }
 
 .ws-game-over-outer {
-  background: rgba(0, 0, 0, 0.85);
+  background: blueviolet;
   height: 100%;
   left: 0;
   position: absolute;
@@ -109,7 +113,7 @@ body {
 }
 
 .ws-game-over h2 {
-  color: #ffffff;
+  color: blueviolet;
   font-size: 2em;
   text-transform: uppercase;
   padding: 0;
@@ -117,7 +121,7 @@ body {
 }
 
 .ws-game-over p {
-  color: #ffffff;
+  color: blueviolet;
   font-size: 1em;
   padding: 0;
   margin: 0;
