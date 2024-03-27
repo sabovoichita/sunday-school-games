@@ -277,10 +277,10 @@ if (typeof Object.merge != "function") {
           y = cvEl.height / 2;
 
         var ctx = cvEl.getContext("2d");
-        ctx.font = "400 28px Calibri";
+        ctx.font = "400 28px calibri";
         ctx.textAlign = "center";
         ctx.textBaseline = "middle";
-        ctx.fillStyle = "#333"; // Text color
+        ctx.fillStyle = "blueviolet"; // Text color
         ctx.fillText(this.matrix[row][col].letter, x, y);
 
         // Add event listeners
@@ -442,7 +442,7 @@ if (typeof Object.merge != "function") {
       "<div class='ws-game-over' id='ws-game-over'>" +
       "<h2>Congratulations!</h2>" +
       "<p>You've found all of the words!</p>" +
-      "<button class='reset'>" +
+      "<button class='reset-button'>" +
       "Reset" +
       "</button>";
     "</div>" + "</div>";
