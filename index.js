@@ -60,7 +60,14 @@ if (typeof Object.merge != "function") {
       gridSize: 10,
       // words: window.location.search.split("=")[1].split(","),
       words: ["Jesus", "Joseph", "Mary", "Temple", "Jerusalem", "Simeon"],
-      wordsList: [],
+      wordsList: [
+        "Saviour",
+        "Prophetess",
+        "Anna",
+        "Sacrifice",
+        "Gentiles",
+        "Light",
+      ],
       debug: false,
     };
     this.settings = Object.merge(settings, default_settings);
