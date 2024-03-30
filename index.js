@@ -45,6 +45,8 @@ if (typeof Object.merge != "function") {
    * @param {Array} settings
    * constructor
    */
+  var words1 = document.querySelector(".hidden-words li");
+
   function WordSearch(wrapEl, settings) {
     this.wrapEl = wrapEl;
 
@@ -53,21 +55,16 @@ if (typeof Object.merge != "function") {
 
     //Words solved.
     this.solved = 0;
-
     // Default settings
     var default_settings = {
       directions: ["W", "N", "WN", "EN"],
       gridSize: 10,
       // words: window.location.search.split("=")[1].split(","),
-      words: ["Jesus", "Joseph", "Mary", "Temple", "Jerusalem", "Simeon"],
-      wordsList: [
-        "Saviour",
-        "Prophetess",
-        "Anna",
-        "Sacrifice",
-        "Gentiles",
-        "Light",
-      ],
+      words: document
+        .querySelector(".hidden-words li")
+        .textContent.split("=")[1]
+        .split(","),
+      wordsList: ["Jesus", "Joseph", "Mary", "Temple", "Jerusalem", "Simeon"],
       debug: false,
     };
     this.settings = Object.merge(settings, default_settings);
